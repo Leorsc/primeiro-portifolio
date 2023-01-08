@@ -1,0 +1,139 @@
+body {
+    Height: 1208px;
+}
+
+.container-c-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    height: 350px;
+    margin-top: 94px;
+    padding: 48px 0;
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+}
+
+.info-c1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 635px;
+    height: 258px;
+}
+
+.social-midias-c {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    width: 104px;
+    height: 24px;
+}
+
+.social-midias-c img {
+    display: flex;
+    width: 24px;
+    height: 24px;
+}
+
+.hear-about {
+    height: 180px;
+    width: 635px;
+    text-align: justify;
+}
+
+.container-c-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    height: 426px;
+    margin-top: 47px;
+}
+
+
+.title-c h2 {
+    width: 350px;
+    height: 42px;
+}
+
+.info-c2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 426px;
+    width: 635px;
+}
+
+.nome input {
+    display: flex;
+
+    height: 48px;
+    width: 635px;
+
+    border: none;
+}
+
+.email input {
+    display: flex;
+
+
+    height: 48px;
+    width: 635px;
+
+    border: none;
+}
+
+.mensagem textarea {
+
+    height: 96px;
+    width: 635px;
+
+    border: none;
+
+    resize: none;
+}
+
+.send {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    background-color: #203A4C;
+
+    height: 48px;
+    width: 200px;
+}
+
+.send:hover {
+    background-color: #5FB4A2;
+}
+
+.send span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 152px;
+    height: 14px;
+    padding: 17px;
+}
+
+.config-c {
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #33323D;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+
+.sub-footer2 {
+    margin-top: 109px;
+}

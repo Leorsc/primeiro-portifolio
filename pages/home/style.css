@@ -1,0 +1,81 @@
+/* Config 1 container */
+.container1 {
+    background-image: url(./../../assets/home/image-homepage-hero.jpg);
+
+    position: relative;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: start;
+
+    height: 600px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 54px;
+}
+
+/* Caixa de texto Branca sobre container1 */
+.content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    position: absolute;
+    background-color: #FAFAFA;
+
+    width: 445px;
+    height: 357px;
+}
+
+/* Texto Olá */
+.content1 h1 {
+    margin: 56px 28px 101px 27px;
+}
+
+/* Button Sobre Mim */
+.button-about {
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+
+    background-color: #203A4C;
+
+    height: 48px;
+    width: 200px;
+}
+
+/* Button Sobre Mim */
+.button-about:hover {
+    background-color: #5FB4A2;
+}
+
+.arrow-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 48px;
+    width: 48px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background-color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.2;
+}
+
+
+.button-about img {
+    height: 12px;
+    width: 16px;
+}
+
+.about-me span {
+    display: flex;
+    justify-content: center;
+
+    height: 14px;
+    width: 152px;
+    padding: 17px;
+}

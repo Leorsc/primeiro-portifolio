@@ -1,0 +1,145 @@
+.central {
+    display: flex;
+    align-items: center;
+}
+
+/* inicio config header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 32px;
+    margin-top: 64px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list li {
+    display: flex;
+    margin-left: 43px;
+}
+
+.active {
+    color: #5FB4A2;
+}
+
+/* Fim config header */
+
+/* Inicio Config geral container com foto */
+.container2 {
+    display: flex;
+    justify-content: space-between;
+
+    height: 601px;
+    margin-top: 149px;
+}
+
+
+.foto-profile img {
+    width: 540px;
+    height: 601px;
+}
+
+
+.text-info {
+    display: flex;
+
+    height: 601px;
+    margin-left: 140px;
+
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+}
+
+.sub-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 430px;
+    height: 502px;
+
+    margin-top: 51px;
+    margin-bottom: 46px;
+}
+
+.text-info p {
+    display: flex;
+    text-align: justify;
+}
+
+/* Fim Config geral container com foto */
+
+/* inicio config footer */
+.footer {
+    height: 314px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-top: 150px;
+
+}
+
+/* Button contato + texto */
+.sub-footer1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    height: 84px;
+
+    margin-bottom: 230px;
+}
+
+/* texto Interessado... */
+.sub-footer1 h2 {
+    width: 368px;
+}
+
+/* buttom geral de navegação */
+.button-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 48px;
+    width: 168px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/* buttom geral de navegação */
+.button-nav:hover {
+    background-color: #33323D;
+    color: #FFFFFF;
+}
+
+/* footer nav */
+.sub-footer2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    height: 80px;
+    background-color: #33323D;
+}
+
+/* footer setas + navegação */
+.sub-footer4 {
+    display: flex;
+}
+
+.social-midias {
+    margin-right: 165px;
+}
+
+.social-midias img {
+    padding: 15px;
+}
+
+/* Fim config footer */
